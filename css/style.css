@@ -1,0 +1,117 @@
+/*brand modification*/
+.navbar-brand{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+/*change navigation color*/
+.navbar #myMenu .custom-nav .nav-item a{
+    color: #fff;
+
+}
+/*change navigation hovor color*/
+.navbar #myMenu .custom-nav .nav-item a:hover{
+    color: #f0aab1;
+    
+}
+
+/*change navigation color for raj.html*/
+.navbar #mymenu .custom-menu .nav-item a{
+    color: #fff;
+}
+
+/*change navigation hover color for raj.html*/
+.navbar #mymenu .custom-menu .nav-item a:hover{
+    color: crimson;
+}
+
+
+
+/* Make Header Responsive*/
+.back-image{
+    background-size: cover;
+    background-position:center center;
+    background-repeat: no-repeat;
+    min-height: 70vh;
+    border-radius: 0px;
+}
+
+
+.bgimg{
+    background-image: url('../images/our mission.jpg');
+    background-size: 100% 100%;
+    /*background-attachment: fixed;*/
+    width: 100%;
+    height:700px ;
+
+}
+.headerset{
+    padding-top: 150px;
+    box-sizing: border-box;
+}
+
+.headerset h2{
+    font-size: 22px;
+    font-family: cursive;
+    color: deeppink;
+    margin-bottom: 20px;
+}
+.headerset h1{
+    
+    font-variant-caps: all-petite-caps;
+    font-size: 65px;
+    font-family:cursive;
+    /*color: blue;*/
+    color: indigo;
+    padding-left: 50px;
+    /*text-align: center;*/
+}
+/*--------------Services--------------*/
+ .card{
+     margin-top: 40px;
+ }
+.services{
+    width: 100%;
+    padding: 50px 0px 50px;
+    
+}
+
+
+
+
+/*------------Our Team-------------*/
+
+.ourteam{
+    
+    padding: 50px 0px 60px;
+    width: 100%;
+    background-color: lightcoral;
+}
+
+.teamsetting{
+    margin-top: 50px;
+}
+
+
+.custom-link a{
+    color: #dc3545;
+}
+
+.custom-link a:hover{
+    color: lightpink;
+    
+}
+/*------------Start Gallery SEction--------------*/
+#gallery{
+    display:flex; 
+    justify-content: center; 
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+    ;
+
+}
+/*------------End Gallery SEction--------------*/
+/*font-family: 'Roboto', sans-serif;*/
